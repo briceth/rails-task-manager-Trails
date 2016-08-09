@@ -1,0 +1,12 @@
+<%= form_for @task do |f|%>
+  <%= f.label :content, "enter a content" %>
+  <%= f.text_field :content %>
+
+  <%= f.label :content, "date" %>
+  <%= f.date_field :date %>
+
+  <%= f.label :content, "rating" %>
+  <%= f.number_field :rating %>
+
+  <%= f.submit %>
+<% end %>
